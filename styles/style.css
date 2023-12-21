@@ -23,6 +23,8 @@ h2 {
 }
 p {
     margin-bottom: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 a {
     text-decoration: none;
