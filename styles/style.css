@@ -6,11 +6,13 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: var(--body-font);
     color: var(--darkblue);
 }
 h1, h2, h3, h4 {
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: var(--title-font);
 }
 h1 {
     font-size: 2.8rem;
@@ -36,8 +38,8 @@ a {
     --lg-bg: #fafafa;
     --green: #4ecd5d;
     --darkblue: #384b61;
-    /* --body-font: 'Open Sans', sans-serif;
-    --title-font: 'Raleway', sans-serif; */
+    --body-font: 'Open Sans', sans-serif;
+    --title-font: 'Raleway', sans-serif;
     --biggest-font-size: 2.5rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.6rem;
@@ -510,11 +512,18 @@ footer ul li a {
     .problemSolving {
         grid-gap: 2em;
     }
+    .newsArticles {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 /* MOBIEL */
 @media only screen and (max-width: 600px) {
+    p {
+        font-size: 1em;
+    }
+
     .contentBlock {
         width: 100%;
     }
@@ -523,8 +532,13 @@ footer ul li a {
     .problemSolving,
     .whyBrain article,
     .formWater,
-    .formGrid {
+    .formGrid,
+    .newsArticles,
+    .news .container > article:nth-child(1) {
         grid-template-columns: 1fr;
+    }
+    .searchNews .filter {
+        margin-top: 1.5em;
     }
 
     .formWater img {
@@ -537,6 +551,10 @@ footer ul li a {
     .whyBrain ul li {
         width: 32vw;
         height: 32vw;
+    }
+
+    .waterTon {
+        display: none;
     }
 
 }
