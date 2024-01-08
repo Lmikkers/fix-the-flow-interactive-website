@@ -126,8 +126,9 @@
                         </div>
                         
                         <ul class="filter">
-                            <li><a class="active" href="#">Populaire items</a></li>
-                            <li><a href="#">Recente items</a></li>
+                            <li><button id="showAllButton" class="active">Alle items</button></li>
+                            <li><button id="filterPopulair">Populaire items</button></li>
+                            <li><button id="filterRecent">Recente items</button></li>
                         </ul>
                     </div>
                 </article>
@@ -135,7 +136,7 @@
                 <hr>
 
                 <div class="newsArticles">
-                    <article class="item">
+                    <article class="item info" data-popularity="high" data-recency="not-recent">
                             <img src="./assets/waterkwaliteit.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
 
                             <div class="content">
@@ -145,7 +146,7 @@
                     </article>
 
               
-                    <article class="item">
+                    <article class="item info" data-popularity="low" data-recency="not-recent">
                             <img src="./assets/Droogte.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
 
                             <div class="content">
@@ -156,7 +157,7 @@
                 
 
                 
-                    <article class="item">
+                    <article class="item info" data-popularity="high" data-recency="recent">
                             <img src="./assets/Aquathermie.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
 
                             <div class="content">
@@ -164,7 +165,35 @@
                                 <p>Subtitel over het onderwerp</p>
                             </div>
                     </article>
-               
+
+                    <!-- nieuw erbij voor het filteren -->
+                    
+                    <article class="item info" data-popularity="low" data-recency="recent">
+                        <img src="./assets/Aquathermie.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
+
+                        <div class="content">
+                            <h4>Titel</h4>
+                            <p>Subtitel over het onderwerp</p>
+                        </div>
+                    </article>
+                    <article class="item info" data-popularity="high" data-recency="not-recent">
+                        <img src="./assets/Aquathermie.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
+
+                        <div class="content">
+                            <h4>Titel</h4>
+                            <p>Subtitel over het onderwerp</p>
+                        </div>
+                    </article>
+                    <article class="item info" data-popularity="high" data-recency="not-recent">
+                        <img src="./assets/Aquathermie.png" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
+
+                        <div class="content">
+                            <h4>Titel</h4>
+                            <p>Subtitel over het onderwerp</p>
+                        </div>
+                    </article>
+                    
+                    <!-- einde nieuw erbij voor het filteren -->
                 </div>
 
                 <article class="popUp">

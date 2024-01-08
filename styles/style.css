@@ -366,10 +366,16 @@ textarea {
     list-style: none;
     margin-left: 1em;
 }
-.filter a {
+.filter button {
     color: #b4b4b4;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
 }
-.filter a.active {
+.filter button.active {
     font-weight: bold;
     color: black;
 }
@@ -415,21 +421,24 @@ hr {
 article.popUp {
     display: none;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    left: 50%; /* left: 0; */
+    /* right: 0; */
+    top: 50%;/* top: 0; */
+    /* bottom: 0; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    min-height: 88vh;
     margin: auto;
 
-    /* display: flex; */
+    /* display flex krijgt de div wanneer er op een news article wordt geklikt */
     flex-direction: column;
     width: 35vw;
-    height: 80vh;
+    /* height: 80vh; */
     background: var(--lg-bg);
     border-radius: 1em;
     box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
     overflow: hidden;
-}
+}   
 article.popUp.active {
     display: flex;
 }
