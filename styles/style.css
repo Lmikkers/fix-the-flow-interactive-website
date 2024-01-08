@@ -410,6 +410,7 @@ textarea {
 .newsArticles article .content p {
     padding: 0 1.2em;
     color: white;
+    font-size: 1em;
 }
 
 hr {

@@ -16,9 +16,9 @@ function showPopup() {
 let articleItems = document.querySelectorAll('.newsArticles .item');
 
 // met behulp van chat gpt
-const infoArticle = document.querySelector(".item.info");
-const popUpArticle = document.querySelector(".popUp");
-const popUpImage = popUpArticle.querySelector("img");
+let infoArticle = document.querySelector(".item.info");
+let popUpArticle = document.querySelector(".popUp");
+let popUpImage = popUpArticle.querySelector("img");
 
 // Loop through each element in the NodeList and add a click event listener
 articleItems.forEach(function(articleItem) {
@@ -29,7 +29,7 @@ function showArticle() {
     console.log('Clicked article item');
 
     // IMG URL
-        const infoImageSrc = infoArticle.querySelector("img").src;
+        let infoImageSrc = infoArticle.querySelector("img").src;
         // Set the src attribute of the image in the popUp article
         popUpImage.src = infoImageSrc;
     // END IMG URL
