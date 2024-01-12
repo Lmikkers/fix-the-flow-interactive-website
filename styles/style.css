@@ -37,6 +37,7 @@ a {
     --spat: #7faec5;
     --lg-bg: #fafafa;
     --green: #4ecd5d;
+    --hoverGreen: #45b452;
     --darkblue: #384b61;
     --hoverDarkblue: #4a6381;
     --body-font: 'Open Sans', sans-serif;
@@ -148,7 +149,10 @@ button.hamburgerMenu:hover {
     transition: all 0.3s ease;
 }
 
-
+.btn:hover,
+.menu a.btn:hover {
+    background-color: var(--hoverGreen);
+}
 
 
 /* HEADER */
@@ -395,9 +399,13 @@ section h2 {
     min-height: 3rem;
 }
 .searchNews .search input{
+    width: 100%;
     border: 2px solid var(--lg-bg);
     border-radius: 4px;
     margin: 0;
+    font-family: var(--body-font);
+    font-size: 1em;
+    padding: 0.8em 0.8em;
 }
 .searchNews .search button {
     width: 3rem;
