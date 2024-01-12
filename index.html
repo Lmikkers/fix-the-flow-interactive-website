@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/515fd6b9d3.js" crossorigin="anonymous"></script>
 
     <script src="./scripts/main.js" defer></script> 
+    <script src="./scripts/slider.js" defer></script> 
 </head>
 <body>
     <header id="home">
@@ -35,11 +36,19 @@
             <h2>Welkom bij b-RAIN, de toekomst van ons water.</h2>
 
             <!-- hier komt een slider -->
-            <div class="problemSolving">
-                <img src="#" alt="slider">
-            </div>
+            <div>
+                <div class="sliderImage">
+                    <img src="" alt="">
+                </div>
 
-            <a id="down" href="#waarom">scroll</a>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" step="25" class="slider" id="myRange">
+                    <p>Value: <span id="demo"></span></p>
+                </div>
+            </div>
+            <!-- einde slider -->
+
+            <a id="down" href="#waarom"><i class="fa-regular fa-circle-down"></i></a>
         </section>
     </header>
 
@@ -54,23 +63,21 @@
                     <p>Als de regenton vol zit en er is een hevige bui voorspeld, dan leegt de ton zich automatisch om de piekbui op te vangen.</p>
                     <p>Als er droogte voorspeld is, houdt de regenton zoveel mogelijk water vast. Dit water kan je op een optimaal moment inzetten, zoals het beregenen van groen of het wassen van je auto.</p>
                     <p>De b-RAIN app communiceert met onze slimme kraan en geeft je inzicht in hoeveel water er al bespaard is, wat de neerslagverwachting is en wanneer je je tuin het beste water kan geven.</p>
-                    
-                    <a href="#">Lees meer ></a>
                 </article>
                 <div class="imagesBlock">
                     <article class="image">
-                        <img src="./assets/iconSpatwater.png" alt="">
-                        <h3>Subtitle</h3>
+                        <img src="./assets/iconen/platDak.svg" alt="">
+                        <h3>Platdak</h3>
                     </article>
 
                     <article class="image">
-                        <img src="./assets/iconSpatwater.png" alt="">
-                        <h3>Subtitle</h3>
+                        <img src="./assets/iconen/puntDak.svg" alt="">
+                        <h3>Puntdak</h3>
                     </article>
 
                     <article class="image">
-                        <img src="./assets/iconSpatwater.png" alt="">
-                        <h3>Subtitle</h3>
+                        <img src="./assets/iconen/schuinDak.svg" alt="">
+                        <h3>Schuindak</h3>
                     </article>
                 </div>
             </div>
@@ -96,10 +103,10 @@
                 <!-- Lijstje met icoonen over uitleg bRAIN -->
                 <h3>Met behulp van de gratis Brain-app heeft u ieder moment van de dag inzicht in uw wateropslag. Op deze manier krijgt u inzicht in de hoeveelheid water die u beschikbaar heeft, hoeveel u bespaard heeft maar ook wat de verwachtte wateropslag is voor de komende zeven dagen.</h3>
                 <ul>
-                    <li><a href="">icoon</a></li>
-                    <li><a href="">icoon</a></li>
-                    <li><a href="">icoon</a></li>
-                    <li><a href="">icoon</a></li>
+                    <li><a href="">Minder rioolafval</a></li>
+                    <li><a href="">Betere doorstroming</a></li>
+                    <li><a href="">Zuinig watergebruik</a></li>
+                    <li><a href="">Dynamisch gebruik</a></li>
                 </ul>
             </div>
         </section>
@@ -198,12 +205,14 @@
 
                 <article class="popUp">
                     <button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
-                    <img src="" alt="Onderzoek helofytenfilters en natuurlijke zuivering">
+                    <img src="" alt="">
 
                     <div class="content">
                         <em>Auteur | 04-12-23</em>
-                        <h4>Gemeente Amstelveen SPATwater</h4>
-                        <p>Gemeente Amstelveen heeft SPATwater gevraagd om op een innovatieve, creatieve en inclusieve manier elke inwoner van Amstelveen een persoonlijk en op maat gemaakt klimaatadaptief advies te geven.</p>
+                        <h4>Title</h4>
+                        <p>content</p>
+                        
+                        <!-- zorgen dat wnr content een button of link heeft dan alleen deze button laten zien anders niet -->
                         <button class="btn">Bezoek site</button>
                     </div>
                 </article>
