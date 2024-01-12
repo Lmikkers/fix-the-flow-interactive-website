@@ -94,6 +94,13 @@ a {
 .menu a:hover {
     color: var(--green);
 }
+/* .mobileMenu ul {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 4em;
+} */
+
 
 .navContainer {
     display: flex;
@@ -111,7 +118,19 @@ a {
     height: 3rem;
 }
 .logo img {
-    width: 8vw;
+    width: 100%;
+}
+
+button.hamburgerMenu {
+    display: none;
+    border: unset;
+    background: unset;
+    font-size: 2em;
+    color: var(--darkblue);
+    transition: all 0.3s ease;
+}
+button.hamburgerMenu:hover {
+    color: var(--hoverDarkblue);
 }
 /* END MENU STYLE */
 
@@ -320,6 +339,8 @@ section h2 {
 }
 .contactForm .btn {
     width: calc(100% + 0.8em);
+    color: white;
+    margin-top: 1em;
 }
 .formGrid {
     display: grid;
@@ -406,6 +427,9 @@ section h2 {
     /* display: inline-block; */
     list-style: none;
     margin-left: 1em;
+}
+.searchNews ul.filter li:first-child {
+    margin-left: unset;
 }
 .filter button {
     color: #b4b4b4;
@@ -602,6 +626,32 @@ footer ul li a {
     }
 }
 
+@media only screen and (max-width: 730px) {
+    /* menu mobiel */
+    .menu ul {
+        display: none;
+        width: 100%;
+        position: fixed;
+        top: 4em;
+        left: 0;
+    }
+    .show .menu ul, 
+    button.hamburgerMenu {
+        display: block;
+    }
+    /* zorgt ervoor dat contact normaal menu item wordt */
+    .menu ul li a,
+    .menu ul li a.btn {
+        text-decoration: none;
+        padding: unset;
+        color: var(--spat);
+        transition: all 0.3s ease;
+        font-size: 1.25em;
+        background-color: unset;
+        width: 100%;
+    }
+}
+
 
 /* MOBIEL */
 @media only screen and (max-width: 600px) {
@@ -643,6 +693,16 @@ footer ul li a {
         width: 32vw;
         height: 32vw;
     }
+    .searchNews .filter {
+        justify-content: left;
+        align-items: center;
+    }
+    .newsArticles article {
+        min-height: 60vmin;
+    }
+    article.popUp {
+        width: 85%;
+    }
 
     .waterTon {
         display: none;
@@ -655,6 +715,7 @@ footer ul li a {
     .contactForm input, .contactForm textarea {
         margin-bottom: 1.2rem;
     }
+
 
 }
 /* END MOBIEL */
