@@ -14,6 +14,7 @@ Als 'klant of potentiële investeerder' wil ik 'een artikel kunnen terug vinden'
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <img src="./assets/mockup_bRAIN.jpg">
+<a href="https://lmikkers.github.io/fix-the-flow-interactive-website">Bekijk website</a>
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
