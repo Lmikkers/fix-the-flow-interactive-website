@@ -194,8 +194,9 @@ function showArticle() {
 
         bodySelect.classList.toggle('showMenu')
 
-        hamburgerIcon.classList.remove("fa-bars"); // Remove mystyle class from DIV
-        hamburgerIcon.classList.add("fa-times");
+        hamburgerIcon.classList.toggle("fa-bars"); // Remove mystyle class from DIV
+        hamburgerIcon.classList.toggle("fa-times");
+        
     }
     
     // EINDE MOBILE MENU
