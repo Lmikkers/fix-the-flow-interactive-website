@@ -348,9 +348,10 @@ section h2 {
     margin-top: 1em;
 }
 .formGrid {
-    display: grid;
+    /* uitgezet want misschien beter onderelkaar */
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 1em; */
 }
 
 .contactForm input,
@@ -731,6 +732,10 @@ footer ul li a {
 
     .contactForm input, .contactForm textarea {
         margin-bottom: 1.2rem;
+    }
+    
+    a#down {
+        font-size: 2em;
     }
 
 
