@@ -19,7 +19,11 @@ Als 'klant of potentiële investeerder' wil ik 'een artikel kunnen terug vinden'
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
-### HTML, CSS en Javascript
+### Technieken
+*** ✏️ HTML ***
+Stuctuur: Header (section), Main (section > div), Footer
+🎨 CSS
+🚀 Javascript 
 
 ## Licentie
 
