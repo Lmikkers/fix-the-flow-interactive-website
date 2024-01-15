@@ -638,6 +638,7 @@ footer ul li a {
 @media only screen and (max-width: 730px) {
     /* menu mobiel */
     .menu ul {
+        display: none;
         background-color: #394b61;
         width: 85%;
         position: fixed;
