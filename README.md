@@ -4,7 +4,9 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-bRAIN Nieuws artikelen 
+bRAIN Nieuws artikelen
+
+Om als klant of potentiële investeerder beter te kunnen verdiepen of specifieke info te vinden, heb ik nieuwsartikelen aangemaakt met een filter.
 
 ## User Story
 <!-- Schrijf de user story waar je aan hebt gewerkt  -->
