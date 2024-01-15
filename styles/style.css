@@ -638,12 +638,12 @@ footer ul li a {
 @media only screen and (max-width: 730px) {
     /* menu mobiel */
     .menu ul {
-        display: none;
-        background-color: white;
-        width: 100%;
+        background-color: #394b61;
+        width: 85%;
         position: fixed;
         top: 4em;
         left: 0;
+        height: 100%;
     }
     .showMenu .menu ul, 
     button.hamburgerMenu {
@@ -654,15 +654,16 @@ footer ul li a {
     .menu ul li a.btn {
         text-decoration: none;
         padding: unset;
-        color: var(--spat);
+        color: white;
         transition: all 0.3s ease;
         font-size: 1.25em;
         background-color: unset;
         width: 100%;
         display: block;
-        width: 100%;
-        border: 1px solid;
+        width: 93%;
+        border-bottom: 3px solid;
         padding: 0.8em;
+        border-radius: 0;
     }
 }
 
