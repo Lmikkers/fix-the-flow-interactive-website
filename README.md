@@ -2,9 +2,9 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
+# bRAIN Nieuws artikelen
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-bRAIN Nieuws artikelen
+
 
 Om als klant of potentiële investeerder beter te kunnen verdiepen of specifieke info te vinden, heb ik nieuwsartikelen aangemaakt met een filter.
 
