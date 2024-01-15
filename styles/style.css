@@ -129,6 +129,7 @@ button.hamburgerMenu {
     font-size: 2em;
     color: var(--darkblue);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 button.hamburgerMenu:hover {
     color: var(--hoverDarkblue);
@@ -638,12 +639,13 @@ footer ul li a {
     /* menu mobiel */
     .menu ul {
         display: none;
+        background-color: white;
         width: 100%;
         position: fixed;
         top: 4em;
         left: 0;
     }
-    .show .menu ul, 
+    .showMenu .menu ul, 
     button.hamburgerMenu {
         display: block;
     }
@@ -657,6 +659,10 @@ footer ul li a {
         font-size: 1.25em;
         background-color: unset;
         width: 100%;
+        display: block;
+        width: 100%;
+        border: 1px solid;
+        padding: 0.8em;
     }
 }
 

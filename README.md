@@ -7,6 +7,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 ## User Story
 <!-- Schrijf de user story waar je aan hebt gewerkt  -->
+Als 'klant of potentiële investeerder' wil ik 'een artikel kunnen terug vinden' zodat 'ik specifieke informatie kan vinden en mij beter kan verdiepen in het onderwerp'
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->

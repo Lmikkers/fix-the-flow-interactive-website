@@ -63,7 +63,7 @@ function showArticle() {
 
     // Add click event listener to close button in the popUp article
     // const closeButton = popUpArticle.querySelector(".close");
-    
+
     // closeButton.addEventListener("click", function () {
     //     // Hide the popUp article when the close button is clicked
     //     popUpArticle.style.display = "none";
@@ -177,3 +177,25 @@ function showArticle() {
             item.style.display = "block";
         });
     }
+
+
+
+
+    // MOBILE MENU
+    // eerst de hamburger menu identificeren
+    var hamburgerMenu = document.querySelector(".hamburgerMenu")
+
+    // als je op hamburgerMenu klikt dan gaat er een functie gebeuren
+    hamburgerMenu.addEventListener('click', showMenu);
+    const hamburgerIcon = hamburgerMenu.querySelector("i");
+
+    function showMenu() {
+        var bodySelect = document.querySelector("body");
+
+        bodySelect.classList.toggle('showMenu')
+
+        hamburgerIcon.classList.remove("fa-bars"); // Remove mystyle class from DIV
+        hamburgerIcon.classList.add("fa-times");
+    }
+    
+    // EINDE MOBILE MENU
