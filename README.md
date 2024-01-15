@@ -4,6 +4,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
+bRAIN Nieuws artikelen 
 
 ## User Story
 <!-- Schrijf de user story waar je aan hebt gewerkt  -->
@@ -12,6 +13,7 @@ Als 'klant of potentiële investeerder' wil ik 'een artikel kunnen terug vinden'
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
+<img src="./assets/mockup_bRAIN.jpg">
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
