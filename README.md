@@ -29,6 +29,7 @@ Stuctuur: Header (section), Main (section > div), Footer
 In CSS probeer ik veel gebruik te maken van de :root, met daarin de kleuren, font-size en shadow, zodat als deze aangepast moeten worden dit in 1 keer kan. 
 
 🚀 Javascript 
+
 Hamburger menu > CSS als mobiel wordt dan krijgt menu display none en gaan ze onder elkaar, en heb ik ervoor gezorgd dat als je op hamburgermenu icon klikt krijgt menu een class, zodat deze zichtbaar wordt.
 
 Slider (nog niet af) > Ik probeer met slider.value ervoor te zorgen dat dan de foto's gaan aanpassen (voor nu een alert, later de foto's)
