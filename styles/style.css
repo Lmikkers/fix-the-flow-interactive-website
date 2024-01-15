@@ -649,6 +649,7 @@ footer ul li a {
     .showMenu .menu ul, 
     button.hamburgerMenu {
         display: block;
+        overflow: hidden;
     }
     /* zorgt ervoor dat contact normaal menu item wordt */
     .menu ul li a,
